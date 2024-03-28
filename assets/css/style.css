@@ -1,4 +1,3 @@
-
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -41,6 +40,7 @@ h6 {
   transition: all 0.4s;
   font-size: 28px;
 }
+
 /* 
 .back-to-top i {
   font-size: 28px;
@@ -51,8 +51,8 @@ h6 {
 .back-to-top:hover {
   color: #000000;
   background: white;
-  
-  
+
+
 }
 
 .back-to-top.active {
@@ -75,7 +75,7 @@ h6 {
   padding: 0 15px;
   background: #ffffff;
   overflow-y: auto;
-  
+
 }
 
 #header .profile img {
@@ -163,17 +163,19 @@ h6 {
 }
 
 
-.nav-menu ul{
+.nav-menu ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
   white-space: nowrap;
 }
+
 .nav-menu li {
   position: relative;
   white-space: nowrap;
 }
+
 .nav-menu a,
 .nav-menu a:focus {
   display: flex;
@@ -264,7 +266,7 @@ h6 {
 }
 
 #hero .hero-container {
-  
+
   position: absolute;
   z-index: 2;
   min-width: 300px;
@@ -360,63 +362,72 @@ section {
   min-height: 100vh;
   width: 100%;
 }
-.app__profile-item, .app__profiles {
+
+.app__profile-item,
+.app__profiles {
   align-items: flex-start;
   display: flex;
 }
+
 .app__profiles {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 2rem;
 }
+
 .app__wrapper {
   flex: 1 1;
   flex-direction: column;
   padding: 4rem 2rem;
   width: 100%;
 }
+
 .app__flex {
   align-items: center;
   display: flex;
   justify-content: center;
 }
+
 .app__about {
   flex: 1 1;
   flex-direction: column;
   width: 100%;
 }
+
 .app__whitebg {
   background-color: var(--white-color);
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
-user agent stylesheet
-div {
+
+user agent stylesheet div {
   display: block;
 }
+
 .app {
   background-color: var(--primary-color);
   font-family: var(--font-base);
 }
 
 
-#skills-section{
+#skills-section {
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
-#skills-section h2{
+#skills-section h2 {
   padding-top: 2rem;
   margin: 0px 0 5rem 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -424,24 +435,23 @@ div {
 }
 
 @media screen and (min-width: 1300px) {
-  #skills-section h2{
+  #skills-section h2 {
     font-size: 2.5rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  #skills-section h2{
+  #skills-section h2 {
     font-size: 3rem;
-
   }
-  #skills-section{
-    max-width: 2038px;
 
+  #skills-section {
+    max-width: 2038px;
   }
 }
 
 
-#skills-section h3{
+#skills-section h3 {
   margin: 20px 0;
   font-size: 1.5rem;
   display: flex;
@@ -449,41 +459,43 @@ div {
   max-width: 1300px;
   font-weight: bold;
 }
-.skills-ul{
+
+.skills-ul {
   /* height: 100%; */
   flex-wrap: wrap;
   display: flex;
-  list-style-type:none;
-  padding:0;
+  list-style-type: none;
+  padding: 0;
   justify-content: center;
 }
 
 
-.skill-icon{
+.skill-icon {
   margin: 0 15px;
   display: flex;
   align-items: center;
   flex-direction: column;
   font-size: 1rem;
-  width:300px;
+  width: 300px;
 }
 
-.skill-icon h2{
+.skill-icon h2 {
   margin-top: 20px;
   font-size: 20px;
   text-align: center;
 }
-.skill-icon p{
+
+.skill-icon p {
   text-align: center;
 }
 
-.skill-img{
+.skill-img {
   margin-bottom: 20px;
   justify-content: center;
   align-content: center;
   height: 200px;
   width: 200px;
-  object-fit:cover;
+  object-fit: cover;
   border: solid 3px rgba(65, 65, 65, 0.137);
   border-radius: 20%;
   flex-direction: column;
