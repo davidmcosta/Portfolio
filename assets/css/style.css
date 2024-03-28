@@ -408,7 +408,7 @@ div {
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;;
+  justify-content:space-around;
 }
 
 #skills-section h2{
@@ -432,6 +432,11 @@ div {
 @media screen and (min-width: 1440px) {
   #skills-section h2{
     font-size: 3rem;
+
+  }
+  #skills-section{
+    max-width: 2038px;
+
   }
 }
 
